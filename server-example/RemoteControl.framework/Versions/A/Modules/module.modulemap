@@ -1,0 +1,11 @@
+framework module RemoteControl {
+  umbrella header "RemoteControl.h"
+
+  export *
+  module * { export * }
+}
+
+module RemoteControl.Swift {
+  header "RemoteControl-Swift.h"
+  requires objc
+}
